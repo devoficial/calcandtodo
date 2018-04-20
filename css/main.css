@@ -1,0 +1,100 @@
+bootstarp elements modified
+
+.dom > .jumbotron {
+
+    background:linear-gradient(#1D2B64,#1A2980, transparent 90%);
+    color: white;
+}
+
+div .jumbotron .cal,
+div .jumbotron .tod {
+    display:none;
+    margin: 10px auto;
+    background: linear-gradient(0deg, rgb(31, 29, 168), transparent)
+}
+
+/* main html elements */
+h4{
+    font-weight: bold;
+    background: blue;
+    border-radius: 2px;
+    padding: 8px;
+
+}
+#maint,
+#mainc{
+    width: 220px;
+    display: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 13px;
+    font-weight: bold;
+    color: blue;
+    /* text-transform: uppercase; */
+    
+}
+
+#maint:focus,
+#mainc:focus{
+    border: 3px solid blueviolet;
+}
+
+.todl{
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* styles for Jquery elements */
+
+.item{
+    border-bottom: 1px solid gainsboro;
+    list-style-type: none;
+    background:white;
+    cursor: pointer;
+    color: slateblue;
+    border-radius: 2px;
+    text-transform: capitalize;
+    text-align: left;
+}
+.done{
+    color: rgb(241, 24, 9);
+    text-decoration: line-through;
+    font-size: 15px;
+    font-weight: normal;
+    opacity: .5;
+}
+.item:nth-child(2n){
+    background: bisque;
+    color: purple;
+}
+span{
+    background:#e74c3c;
+    height: 30px;
+    margin-right:10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    transition: .2s linear;
+    display: inline-block;
+    opacity: 0;
+
+}
+li:hover span{
+    width: 30px;
+    opacity: 1.0;
+}
+
+/* Styles for calculator */
+div.jumbotron .calc .btng {
+    width: 280px;
+    margin: 0 auto;
+}
+
+div.jumbotron .calc .btng .data{
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    padding: 5px;
+}

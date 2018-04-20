@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <title>calcandTodo</title>
+  </head>
+  <body > 
+      <!-- jumbotron form main heading and buttons -->
+    <div class="container text-center dom">
+        <div class="jumbotron mt-4  border border-primary">
+            <h1 class="display-4 font-weight-bold head">Calculator || ToDo List</h1>
+            <div class="container mt-4">
+            <button id="cal" type="button" class="btn btn-primary btn-lg">Calculator</button>
+            <button id="tod" type="button" class="btn btn-secondary btn-lg">Todolist</button>
+        
+        <!-- main input -->
+        <div  class="container mt-4 main-1">
+            <input type="text" id="maint">
+        </div>
+        <div  class="container mt-4 main-1">
+                <input type="text" id="mainc">
+        </div>
+
+         <!--  calculator -->
+        
+        <div class="jumbotron mt-4 cal mx-auto">
+                <div class="calc">
+                    <div class="btng">
+                        <button class="btn btn-light data">1</button>
+                        <button class="btn btn-light data">2</button>
+                        <button class="btn btn-light data">3</button>
+                        <button class="btn btn-light data">*</button>
+                    </div>
+                    <div class="btng">
+                        <button class="btn btn-light data">4</button>
+                        <button class="btn btn-light data">5</button>
+                        <button class="btn btn-light data">6</button>
+                        <button class="btn btn-light data">/</button>
+                    </div>
+                    <div class="btng">
+                        <button class="btn btn-light data">7</button>
+                        <button class="btn btn-light data">8</button>
+                        <button class="btn btn-light data">9</button>
+                        <button class="btn btn-light data">=</button>
+                    </div>
+                    <div class="btng">
+                        <button class="btn btn-light data">-</button>
+                        <button class="btn btn-light data">0</button>
+                        <button class="btn btn-light data">+</button>
+                        <button class="btn btn-light data">c</button>
+                    </div>                
+                </div>
+        </div>
+
+       <!-- todolist  -->
+        <div class="row  mx-auto jumbotron tod">
+                <div class="col-lg-6 col-md-6 col-sm  container">
+                    <h4 id="th">Todo List</h4>
+                    <ul class="todl list-group">
+                 </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+        
+    <script src="./js/target.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
